@@ -170,3 +170,8 @@ section.alt { background: var(--soft); }
 @keyframes pulse { 70% { box-shadow: 0 0 0 8px rgba(74,222,128,0); } 100% { box-shadow: 0 0 0 0 rgba(74,222,128,0); } }
 @media (max-width: 860px) { .phone.live { width: min(340px, 100%); } }
 @media (prefers-reduced-motion: reduce) { .tryhint .dot { animation: none; } }
+
+/* the no-ads promise in the privacy section */
+.promise { margin-top: 24px; background: var(--bg); border: 1px solid var(--line); border-left: 4px solid var(--brand); border-radius: 14px; padding: 16px 20px; }
+.promise b { display: block; font-size: 17px; margin-bottom: 4px; }
+.promise p { margin: 0; color: var(--muted); font-size: 15px; }
